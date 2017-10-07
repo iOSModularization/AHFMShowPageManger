@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AHFMShowPageManger_Example' do
+  pod 'AHFMShowPageManger', :path => '../'
+
+  target 'AHFMShowPageManger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
